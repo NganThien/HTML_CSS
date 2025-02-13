@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <!-- Chú thích
+     Có thể xuống dòng mà không phải làm gì
+     Bây h tôi có thể code html như thế nào tôi muốn
+     Mọi người hãy chờ xem dự án web sắp tới của tôi nhé-->
+    <head>
+        <title>F8_shop</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="Bai1.css">
+        <!-- Dùng css bằng internal
+         Dùng external thì sang file css -->
+        <style>
+            /*! important -- ưu tiên nhất > 1000 điểm 
+            Inline-1000 điểm
+            #id-100 điểm
+            .class-10 điểm
+            tag-1 điểm -- tag thì thêm ví dụ h3 vào đầu
+            Universal selector-0 điểm ví dụ * or thẻ chung li
+            Inherited-0 điểm ví dụ thẻ chung như html*/
+            #heading_id{
+                color: darksalmon;
+            }
+            h3#heading_id.heading_class{
+                color: red;
+            }
+            .heading_class{
+                color: aqua;
+            }
+            h3{
+                color: green;
+                font-size: 50px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <!-- <h1 id="first_heading">CSS in HTML?</h1> -->
+            <h3 id="heading_id" class="heading_class">CSS in HTML?</h3>
+            <!-- <h1 class="second_heading">CSS in HTML?</h1> -->
+            <!-- <h2 class="second_heading">ID va Class?</h2> -->
+            <!-- <h1 title="Đây là tiêu đề">Thuộc tính -- Attribute?</h1> -->
+            <!-- Thẻ div tạo 1 khối bao quanh các phần tử khác -->
+            Xin chào các bạn // Phần thân
+            <!-- Ngân Văn Thiện có thể dùng ctrl+/ bất cứ đâu để câu lệnh đó chuyển thành chú thích -->
+            <!-- Ctrl + / là có thể sử dụng chú thích -->
+            <!-- <h1>Tiêu đề //thẻ h1 </h1> -->
+            <input type="text">
+            <input type="checkbox">
+            <input name = "gender" type="radio">
+            <input name = "gender" type="radio">
+            <input name = "gender" type="radio">
+            <button type="Đăng ký"></button>
+            <!-- Dùng css bằng phương pháp inline, đưa ngay vào trong tiêu đề h2 luôn -->
+            <h2 style="color: blue; font-size: 30px;">Tiêu đề thứ 2 nên cỡ chữ sẽ nhỏ hơn // thẻ h2</h2>
+            <p>Thẻ p .. là những đoạn văn, câu dẫn thường dùng để miêu tả các sự việc</p>
+            <img src="https://th.bing.com/th/id/OIP.GvNakgya1kk5A6CFQM6Z4gHaHZ?rs=1&pid=ImgDetMain" alt="Ảnh gái xinh, cái này không bắt buộc, trừ khi ảnh bị lỗi thì cái này mới được hiện thị">
+            <a href="https://www.youtube.com/watch?v=AzmdwZ6e_aM&list=PL_-VfJajZj0U9nEXa4qyfB4U5ZIYCMPlz&index=7">Tới trang học lập trình, thì đây là thẻ a</a>
+            <ul>thẻ ul là thẻ ghi danh sách, chỉ dùng 1 thẻ ul (item) còn lại dùng li
+                <li>Số 1</li>
+                <li>Số 2</li>
+                <li>Số 3</li>
+            </ul>
+            <!-- ul là dấu chấm, còn ol là số -->
+             <ol>
+                <li>Ngân</li>
+                <li>Văn</li>
+                <li>Thiện</li>
+             </ol>
+            <table><!--thẻ table dùng để lập bảng-->
+                <thead>
+                    <th>STT</th>
+                    <th>Name</th>
+                    <th>Địa chỉ</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Thiện</td>
+                        <td>Nghệ An</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Hà</td>
+                        <td>Thái Bình</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
